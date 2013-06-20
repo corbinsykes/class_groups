@@ -8,8 +8,8 @@ number_of_groups = students.length / group_size
 
 number_of_groups.times do |x|
   puts "Group Number #{x+1}"
-  puts students.pop(group_size).join(' ,')
+  puts students.pop(group_size).join(', ')
 end
  if students.any?
-  puts ",#{students.join(', ')} "
+  puts ", #{students.join(', ')} "
  end
